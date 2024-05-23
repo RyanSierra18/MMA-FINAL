@@ -1,0 +1,31 @@
+body {
+  background-color: #ffaa00; /* Orange background */
+  color: red; /* Red text color */
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.video-container {
+  margin-bottom: 20px;
+}
+
+.content {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+/* Responsive video */
+.video-container iframe {
+  width: 100%;
+  height: auto;
+}
